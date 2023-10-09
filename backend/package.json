@@ -1,0 +1,23 @@
+{
+  "name": "real-time-chat-app-backend",
+  "version": "1.0.0",
+  "description": "Real Time Chat App",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emre Ünaldı <emree.unaldi@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "redis": "^3.0.2",
+    "shortid": "^2.2.16",
+    "socket.io": "^4.7.2"
+  }
+}
